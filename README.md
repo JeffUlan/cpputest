@@ -1,6 +1,6 @@
 # CppUTest
 
-[![GitHub Actions](https://github.com/cpputest/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/cpputest/cpputest/actions/workflows/basic.yml)
+[![GitHub Actions](https://github.com/JeffUlan/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/JeffUlan/cpputest/actions/workflows/basic.yml)
 [![AppveyorBuild status](https://ci.appveyor.com/api/projects/status/irh38i4wblsb5tew?svg=true)](https://ci.appveyor.com/project/basvodde/cpputest)
 [![Coverage Status](https://coveralls.io/repos/cpputest/cpputest/badge.svg?branch=master&service=github)](https://coveralls.io/github/cpputest/cpputest?branch=master)
 [![ConanCenter package](https://repology.org/badge/version-for-repo/conancenter/cpputest.svg)](https://conan.io/center/cpputest)
@@ -19,7 +19,7 @@ You'll need to do the following to get started:
 Building from source (Unix-based, Cygwin, MacOS):
 
 ```bash
-git clone https://github.com/cpputest/cpputest.git
+git clone https://github.com/JeffUlan/cpputest.git
 cd cpputest_build
 autoreconf .. -i
 ../configure
@@ -31,7 +31,7 @@ You can use `make install` if you want to install CppUTest system-wide.
 You can also use CMake, which also works for Windows Visual Studio.
 
 ```bash
-git clone https://github.com/cpputest/cpputest.git
+git clone https://github.com/JeffUlan/cpputest.git
 cmake -B cpputest_build
 cmake --build cpputest_build
 ```
@@ -241,7 +241,7 @@ Sometimes you want to use CppUTest in your project without installing it to your
 include(FetchContent)
 FetchContent_Declare(
     CppUTest
-    GIT_REPOSITORY https://github.com/cpputest/cpputest.git
+    GIT_REPOSITORY https://github.com/JeffUlan/cpputest.git
     GIT_TAG        master # or use release tag, eg. v4.0
 )
 # Set this to ON if you want to have the CppUTests in your project as well.
